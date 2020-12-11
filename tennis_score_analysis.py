@@ -19,6 +19,8 @@ forty_love = []
 forty_fifteen = []
 forty_thirty = []
 deuce = []
+
+#キープしたかブレークされたかのチェック
 def game_result_checker():
     if game_result[- 1] == ["AD", "40"]:
         game_result.append("W")
